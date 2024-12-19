@@ -22,7 +22,7 @@ export const routes: Routes = [
   { path: 'dashboard', pathMatch: 'full', component: DashboardComponent },
   { path: 'users', pathMatch: 'full', component: UsersComponent },
   {
-    path: 'usersDetails',
+    path: 'users/:userId',
     pathMatch: 'full',
     component: UsersDetailsComponent,
   },
